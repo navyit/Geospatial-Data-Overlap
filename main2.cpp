@@ -289,7 +289,7 @@ int main() {
         processor2.printDetailedInfo();
         
         #ifdef HAS_GEOS
-        cout << "\n🔍 Вычисление пересечения..." << endl;
+        cout << "\nВычисление пересечения..." << endl;
         
         GEOSGeometry* geometry1 = processor1.getValidGeometry();
         GEOSGeometry* geometry2 = processor2.getValidGeometry();
@@ -347,4 +347,5 @@ int main() {
     
     cout << "\nПрограмма завершена" << endl;
     return 0;
+
 }
